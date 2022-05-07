@@ -13,9 +13,9 @@ app.get('/', (req, res) => {
 
 app.get('/query', (req, res) => {
     let conn = mysql.createConnection({
-        host: '10.0.0.175',
-        user: 'piremote',
-        password: 'drain',
+        host: 'localhost',
+        user: 'root',
+        password: 'okeq31312',
         database: 'contact-manager'
     })
     conn.connect()
