@@ -19,6 +19,8 @@
   "homepage": "https://github.com/JShinault0620/contact-manager#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "express-react-views": "^0.11.0",
+    "mysql": "^2.18.1",
     "node": "^17.7.2",
     "npm": "^8.9.0"
   }
