@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send('<h1>Hello!</h1>')
 })
 
-apt.get('/query', (req, res) => {
+app.get('/query', (req, res) => {
     let conn = mysql.createConnection({
         host: '10.0.0.175',
         user: 'piremote',
